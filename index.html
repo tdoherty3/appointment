@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <h1>Appointment Creator</h1>
+      <p>Make an Appointment!</p>
+      <div class="container">
+    <form>
+      <div class="field">
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+      </div>
+      <div class="field">
+        <label for="description">Description of appointment</label>
+        <input id="description" type="text">
+      </div>
+      <div class="field">
+        <label for="date">Date of appointment</label>
+        <input id="date" type="date">
+      </div>
+      <div class="field">
+        <label for="time">Time of appointment</label>
+        <input id="time" type="time">
+      </div>
+      <button type="submit" class="receipt">Submit</button>
+    </form>
+      </div>
+      <div class="output">
+        <p><br>Here is your receipt.</br><br>Your name: <span class="name"></span>.</br><br> Your appointment is for: <span class="description"></span>.</br><br>Your date is: <span class="date"></span>.</br><br>Your start time is:<span class="time"</span>.</br>
+        </p>
+      </div>
+  </body>
+</html>
